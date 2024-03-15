@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/libs/jquery-3.7.1.js"></script>
+</head>
+
+<body class="dark">
+    <div class="container d-flex">
+        <div class="d-flex toolbar">
+            <a class="github" href="https://github.com/">
+                <img src="./static/image/GitHub_Logo_White.png" style="height: 2em;">
+            </a>
+            <div class="flex-fill"></div>
+            <div class="toggle"><span> </span></div>
+            <div class="setting"><span> </span></div>
+        </div>
+        <div class="search">
+            <form action="https://www.bing.com/search?" class="searchbox d-flex">
+                <img src="./static/image/Bing-logo.png" class="engine">
+                <div class="d-flex toggle" style="display: none;">
+                    <div class="bing">
+                        <img src="./static/image/Bing-logo.png">
+                    </div>
+                    <div class="baidu">
+                        <img src="./static/image/Baidu-logo.png">
+                    </div>
+                    <div class="google">
+                        <img src="./static/image/Google-logo.png">
+                    </div>
+                </div>
+                <input type="search" placeholder="Search ... " name="q" autocomplete="off" class="flex-fill">
+            </form>
+        </div>
+        <div class="bookmark">
+            <div class="container">
+                
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/bookmarks.js"></script>
+    <script src="./js/search.js"></script>
+</body>
+
+</html>
